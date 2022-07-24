@@ -13,8 +13,6 @@ movies: [
         ReleaseDate: "2005",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
 
     {
@@ -34,8 +32,6 @@ movies: [
         Genre: "Crime",
         Actors: "7",
         Video: "https://www.youtube.com/embed/gmRKv7n2If8?rel=0;&autoplay=1",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Interstellar",
@@ -49,8 +45,6 @@ movies: [
         ReleaseDate: "2014",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched:"false",
-        Available: "1",
     },
     {
         Title: "Sunshine",
@@ -64,8 +58,6 @@ movies: [
         ReleaseDate: "2007",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "James and the Giant Peach",
@@ -81,8 +73,6 @@ movies: [
         ReleaseDate: "1996",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Chicken Run",
@@ -96,8 +86,6 @@ movies: [
         ReleaseDate: "2000",
         Genre: "Family",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "A.I. Artificial Intelligence",
@@ -115,8 +103,6 @@ movies: [
         ReleaseDate: "2001",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Grave of the Fireflies",
@@ -130,8 +116,6 @@ movies: [
         ReleaseDate: "1988",
         Genre: "Drama",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "The Gods Must Be Crazy",
@@ -146,8 +130,6 @@ movies: [
         ReleaseDate: "1980",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Ant-Man",
@@ -162,8 +144,6 @@ movies: [
         ReleaseDate: "2015",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Uncharted",
@@ -180,8 +160,6 @@ movies: [
         ReleaseDate: "2022",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Red Notice",
@@ -198,8 +176,6 @@ movies: [
         ReleaseDate: "2021",
         Genre: "Crime",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Wonder Woman",
@@ -214,8 +190,6 @@ movies: [
         ReleaseDate: "2017",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Honey, I Shrunk the Kids",
@@ -231,8 +205,6 @@ movies: [
         ReleaseDate: "1989",
         Genre: "Family",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Babe",
@@ -247,8 +219,6 @@ movies: [
         ReleaseDate: "1995",
         Genre: "Family",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Edward Scissorhands",
@@ -263,8 +233,6 @@ movies: [
         ReleaseDate: "1990",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "The Adventures of Tintin",
@@ -286,8 +254,6 @@ movies: [
         ReleaseDate: "2011",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Life of Pi",
@@ -305,8 +271,6 @@ movies: [
         ReleaseDate: "2012",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Ice Age",
@@ -321,8 +285,6 @@ movies: [
         ReleaseDate: "2002",
         Genre: "Family",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "The Road to El Dorado",
@@ -336,8 +298,6 @@ movies: [
         ReleaseDate: "2000",
         Genre: "Family",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Home Alone",
@@ -355,8 +315,6 @@ movies: [
         ReleaseDate: "1990",
         Genre: "Family",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Johnny English Strikes Again",
@@ -371,8 +329,6 @@ movies: [
         ReleaseDate: "2018",
         Genre: "Comedy",
         Actors: "7",
-        Available: "0",
-        Watched: "false",
     },
     {
         Title: "Johnny English Reborn",
@@ -391,8 +347,6 @@ movies: [
         ReleaseDate: "2011",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Johnny English",
@@ -408,8 +362,6 @@ movies: [
         ReleaseDate: "2003",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Legally Blonde",
@@ -428,8 +380,6 @@ movies: [
         ReleaseDate: "2001",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Legally Blonde 2: Red, White &amp; Blonde",
@@ -442,8 +392,6 @@ movies: [
         ReleaseDate: "2003",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Rat Race",
@@ -458,8 +406,6 @@ movies: [
         ReleaseDate: "2001",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Matilda",
@@ -475,8 +421,6 @@ movies: [
         ReleaseDate: "1996",
         Genre: "Family",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Stuart Little",
@@ -493,8 +437,6 @@ movies: [
         ReleaseDate: "1999",
         Genre: "Family",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Pitch Perfect",
@@ -510,8 +452,6 @@ movies: [
         ReleaseDate: "2012",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Pitch Perfect 2",
@@ -529,8 +469,6 @@ movies: [
         ReleaseDate: "2015",
         Genre: "Comedy",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Cast Away",
@@ -558,8 +496,6 @@ movies: [
         ReleaseDate: "2000",
         Genre: "Drama",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "House of Gucci",
@@ -573,8 +509,6 @@ movies: [
         ReleaseDate: "2021",
         Genre: "Drama",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Gladiator",
@@ -590,8 +524,6 @@ movies: [
         ReleaseDate: "2000",
         Genre: "Drama",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "The Karate Kid",
@@ -610,8 +542,6 @@ movies: [
         ReleaseDate: "1984",
         Genre: "Drama",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Joker",
@@ -626,8 +556,6 @@ movies: [
         ReleaseDate: "2019",
         Genre: "Drama",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "The Karate Kid",
@@ -644,8 +572,6 @@ movies: [
         ReleaseDate: "2010",
         Genre: "Drama",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Bohemian Rhapsody",
@@ -663,8 +589,6 @@ movies: [
         ReleaseDate: "2018",
         Genre: "Drama",
         Actors: "7",
-        Available: "0",
-        Watched: "true",
     },
     {
         Title: "Forrest Gump",
@@ -681,8 +605,6 @@ movies: [
         ReleaseDate: "1994",
         Genre: "Drama",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Black Panther",
@@ -698,8 +620,6 @@ movies: [
         ReleaseDate: "2018",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "TRON: Legacy",
@@ -715,8 +635,6 @@ movies: [
         ReleaseDate: "2010",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Jurassic Park",
@@ -731,8 +649,6 @@ movies: [
         ReleaseDate: "1993",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "The Terminator",
@@ -749,8 +665,6 @@ movies: [
         ReleaseDate: "1984",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "E.T. the Extra-Terrestrial",
@@ -765,8 +679,6 @@ movies: [
         ReleaseDate: "1982",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "WALL·E",
@@ -790,11 +702,8 @@ movies: [
         CommingSoon: "0",
         Reminder: "4",
         ReleaseDate: "2008",
-        watched:"true",
         Genre: "Family",
         Actors: "7",
-        Watched: "false", 
-        Available: "1",
     },
     {
         Title: "The Maze Runner",
@@ -812,8 +721,6 @@ movies: [
         ReleaseDate: "2014",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Divergent",
@@ -831,9 +738,6 @@ movies: [
         ReleaseDate: "2014",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
-
     },
     {
         Title: "The Divergent Series: Insurgent",
@@ -848,8 +752,6 @@ movies: [
         ReleaseDate: "2015",
         Genre: "Sci-fi",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Death on the Nile",
@@ -865,8 +767,6 @@ movies: [
         ReleaseDate: "2022",
         Genre: "Crime",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "The Italian Job",
@@ -885,9 +785,6 @@ movies: [
         ReleaseDate: "2003",
         Genre: "Crime",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
-
     },
     {
         Title: "Catch Me If You Can",
@@ -901,8 +798,6 @@ movies: [
         ReleaseDate: "2002",
         Genre: "Crime",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "The Fast and the Furious: Tokyo Drift",
@@ -917,8 +812,6 @@ movies: [
         ReleaseDate: "2006",
         Genre: "Crime",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Skyfall",
@@ -935,8 +828,6 @@ movies: [
         ReleaseDate: "2012",
         Genre: "Crime",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Spectre",
@@ -956,8 +847,6 @@ movies: [
         ReleaseDate: "2015",
         Genre: "Crime",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Casino Royale",
@@ -974,8 +863,6 @@ movies: [
         ReleaseDate: "2006",
         Genre: "Crime",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "Alice in Wonderland",
@@ -991,8 +878,6 @@ movies: [
         ReleaseDate: "2010",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Peter Pan",
@@ -1007,8 +892,7 @@ movies: [
         Reminder: "4",
         ReleaseDate: "2003",
         Genre: "Fantasy",
-        Available: "1",
-        Watched: "false",
+        Actors: "7",
     },
     {
         Title: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
@@ -1024,8 +908,6 @@ movies: [
         ReleaseDate: "2005",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "true",
-        Available: "0",
     },
     {
         Title: "King Kong Lives",
@@ -1040,8 +922,6 @@ movies: [
         ReleaseDate: "1986",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "false",
-        Available: "0",
     },
     {
         Title: "Jumanji: The Next Level",
@@ -1055,8 +935,6 @@ movies: [
         ReleaseDate: "2019",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "false",
-        Available: "1",
     },
     {
         Title: "Prince of Persia: The Sands of Time",
@@ -1069,8 +947,6 @@ movies: [
         ReleaseDate: "2010",
         Genre: "Fantasy",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
     {
         Title: "Spider-Man: Homecoming",
@@ -1086,8 +962,6 @@ movies: [
         ReleaseDate: "2017",
         Genre: "Adventure",
         Actors: "7",
-        watched: "false",
-        Available: "0",
     },
     {
         Title: "Indiana Jones and the Kingdom of the Crystal Skull",
@@ -1105,8 +979,5 @@ movies: [
         ReleaseDate: "2008",
         Genre: "Adventure",
         Actors: "7",
-        Watched: "true",
-        Available: "1",
     },
 ]
-

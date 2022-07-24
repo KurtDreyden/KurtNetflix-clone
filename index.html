@@ -1,208 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix-Watch TV Shows Online</title>
-    <link rel="stylesheet" href="Stylesheet.css">
-    <script src="https://kit.fontawesome.com/e642b7c985.js" crossorigin="anonymous"></script>
-    
+
+    <title>Netflix</title>
+
+    <script src="js.js" defer></script>
+    <script>script.js</script>
+<img src="images/netflix background.jpg">
 </head>
-<script src="script.js"></script>
+
 <body>
-    <header class="showcase">
-        <div class="showcase-top">
-            <img src="images/images.png" alt="netflix">
-            <a href="#" class="btn btn-rounded">Sign In</a>
-        </div>
-        <div class="showcase-content">
-            <h1>See what's next</h1>
-            <p>Watch anywhere. Cancel anytime</p>
-            <a href="#" class="btn btn-xl">
-            Watch Free for 30 Days <i class="fas fa-chevron-right btn-icon"></i> 
-            </a>
-        </div>
-        <div class="searchFunction">
-            <input type="text" placeholder="Search..">
-          </div>
-    </header>
-    <iframe width="885" height="498" src="https://www.youtube.com/embed/sTj-jHfhdzo" title="Untold: The Girlfriend Who Didn't Exist | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="movieList">
-        <ul>
-            <li>Action</li>
-            <img src="https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg">
-            <li>Comedy</li>
-            <img src= <script>document.getElementById("Comedy")</script>>
-            <li>Drama</li>
-            <li>Horror</li>
-            <li>Sci-fiction</li>
-        </ul>
-    </div>
-    <section class="tabs">
-        <div class="container">
-            <div id="tab-1" class="tab-item tab-border">
-                <i class="fas fa-door-open fa-3x"></i>
-                <p class="hide-sm">Cancel anytime</p>
-                
-            </div>
-            <div id="tab-2" class="tab-item">
-                <i class="fas fa-tablet-alt fa-3x"></i>
-                <p class="hide-sm">Watch anywhere</p>
-            </div>
-            <div id="tab-3" class="tab-item">
-                <i class="fas fa-tags fa-3x"></i>
-                <p class="hide-sm">Pick your price</p>
-            </div>
-        </div>
-    </section>
-    <section class="tab-content">
-        <div class="container">
-            <!-- Tab Content1 -->
-            <div id="tab-1-content" class="tab-content-item show">
-                <div class="tab-1-content-inner">
-                    <div>
-                        <p class="text-lg">If you decide Netflix isn't for you.Cancel online anytime.</p>
-                        <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
-                        </div>
-                        <img src="./images/netflix background.jpg" alt="">
-                    
+    <!-- You can add a background photo that you download but add it in your css so that it displays on the whole page -->
+
+    <!-- You can give your stuff your own classes and ID's to style them -->
+
+    <div id="netflixClone">
+        <header>
+            <a href="netflix.html">
+
+                <!-- You need the netflix logo image and add it in the src below -->
+                <img src="images/netflix logo.png" alt="netflixLogo"></a>
+    
+            <button><a href="#" >Sign Out</a>
+            </button>
+        </header>
+    
+        <main>
+    
+            <div>
+                <div>
+
+                    <!-- Movie Trailer and genres-->
+
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/83ClbRPRDXU" title="The Sandman | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-            </div>
-        
-            <!-- Tab Content2 -->
-                <div id="tab-2-content" class="tab-content-item">
-                        <div class="tab-2-content-top">
-                            <p class="text-lg">
-                                Watch TV shows and movies anytime, anywhere - personalized for you.
-                            </p>
-                            <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
-                        </div>
-                        <div class="tab-2-content-bottom">
-                            <div>
-                                <img src="images/computer.jpg" alt="">
-                                <p class="text-md">Watch on you TV</p>
-                                <p class="text-dark">Smart, TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-                            </div>
-                            <div>
-                                <img src="images/tab-content-2-2.png" alt="">
-                                <p class="text-md">Watch instantly or download later</p>
-                                <p class="text-dark">Available on phone and tablet, wherever you go.</p>
-                            </div>
-                            <div>
-                                <img src="images/tab-content-2-3.png" alt="">
-                                <p class="text-md">Use any computer</p>
-                                <p class="text-dark">Watch right on Netflix.com</p>
-                            </div>
+    
+                <div>
+                    <h1>Coming Soon</h1>
+                    <div>
+                        <div v-for="(event, index) in movies">
+                            <a class="movie-link">
+                                <div>
+                                    <img :src="event.Poster" alt="Movie Images">
+                                    <div><button>Add</button></div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    <!-- tab 3 content -->
-                    <div id="tab-3-content" class="tab-content-item">
-                        <div class="text-center">
-                             <p class="text-lg">Choose one plan and watch everything on Netflix.</p>
-                                <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+                </div>
+    
+                <div>
+                    <h1>Action</h1>
+                    <div>
+                        <div v-for="(event, index) in movies">
+                            <a class="movie-link">
+                                <div>
+                                    <img :src="event.Poster" alt="Movie Images">
+                                    <div><button>Add</button></div>
                                 </div>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th></th>
-                                            <th>Basic</th>
-                                            <th>Standard</th>
-                                            <th>Premium</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Monthly price after free month ends on 6/19/19</td>
-                                            <td>R8.99</td>
-                                            <td>R12.99</td>
-                                            <td>R15.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>HD Available</td>
-                                            <td><i class="fas fa-times"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ultra HD Available</td>
-                                            <td><i class="fas fa-times"></i></td>
-                                            <td><i class="fas fa-times"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Screens you can watch on at the same time</td>
-                                            <td>1</td>
-                                            <td>2</td>
-                                            <td>4</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Watch on your laptop, TV, phone and tablet</td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Unlimited movies and TV shows</td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cancel anytime</td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>First month free</td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                            <td><i class="fas fa-check"></i></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <h1>Drama</h1>
+                    <div>
+                        <div v-for="(event, index) in movies">
+                            <a class="movie-link">
+                                <div>
+                                    <img :src="event.Poster" alt="Movie Images">
+                                    <div><button>Add</button></div>
                                 </div>
-                
-                
-        </div>
-    </section>
-    <footer class="footer">
-        <p>Questions? Call 0605859950</p>
-        <div class="footer-cols">
-            <ul>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Investor Relations</a></li>
-                <li><a href="#">Ways To Watch</a></li>
-                <li><a href="#">Corporate Information</a></li>
-                <li><a href="#">Netflix Originals</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Terms Of Use</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Account</a></li>
-                <li><a href="#">Redeem Gift Cards</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Speed Test</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Media Center</a></li>
-                <li><a href="#">Buy Gift Cards</a></li>
-                <li><a href="#">Cookie Preferences</a></li>
-                <li><a href="#">Legal Notices</a></li>
-            </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <h1>Comedy</h1>
+                    <div>
+                        <div v-for="(event, index) in movies">
+                            <a class="movie-link">
+                                <div>
+                                    <img :src="event.Poster" alt="Movie Images">
+                                    <div><button>Add</button></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <h1>Kids</h1>
+                    <div>
+                        <div v-for="(event, index) in movies">
+                            <a class="movie-link">
+                                <div>
+                                    <img :src="event.Poster" alt="Movie Images">
+                                    <div><button>Add</button></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
             </div>
-    </footer>
-    <script src="script.js"></script>
-    <script src="js.js"></script>
+    
+        </main>
+    </div>
+    
+
+    <!-- Vue Links -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
     <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
 
-
-
-
 </body>
+
 </html>
